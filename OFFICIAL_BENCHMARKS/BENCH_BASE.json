@@ -1,0 +1,1202 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "JUPYTERHUB",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\ACADEMIA_RD\\JUPYTERHUB\\UPSTREAM_CLONE",
+    "git": {
+      "head": "1dd5f4c3c0d928bdf8363bcee2456de6f2499134",
+      "url": "https://github.com/jupyterhub/jupyterhub",
+      "branch": "main",
+      "committed_at": "2026-10-01T09:24:20+01:00"
+    }
+  },
+  "metrics": {
+    "files_total": 190,
+    "source_files_scanned": 112,
+    "lines_of_code": 35448,
+    "languages": {
+      ".py": 77,
+      ".js": 22,
+      ".html": 16,
+      ".jsx": 14,
+      "(none)": 10,
+      ".md": 8,
+      ".yaml": 6,
+      ".json": 6,
+      ".scss": 6,
+      ".yml": 5,
+      ".css": 5,
+      ".in": 2,
+      ".ini": 2,
+      ".txt": 2,
+      ".sh": 2
+    }
+  },
+  "licence": {
+    "spdx": "BSD-3-Clause",
+    "class": "A",
+    "source_file": "LICENSE",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 49,
+    "unique": 47,
+    "by_ecosystem": {
+      "npm": 47,
+      "pypi": 2
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "@fortawesome/fontawesome-free",
+        "version": "^7.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bootstrap",
+        "version": "^5.3.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jquery",
+        "version": "^4.0.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "moment",
+        "version": "^2.29.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "requirejs",
+        "version": "^2.3.6",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "karma",
+        "version": "^6.4.4",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "karma-chrome-launcher",
+        "version": "^3.2.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "karma-jasmine",
+        "version": "^5.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "karma-requirejs",
+        "version": "^1.1.0",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "sass",
+        "version": "^1.74.1",
+        "source_file": "package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "--progress",
+        "version": "=false",
+        "source_file": "setup.py",
+        "raw": "--progress=false"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "--progress",
+        "version": "=false",
+        "source_file": "setup.py",
+        "raw": "--progress=false"
+      },
+      {
+        "ecosystem": "npm",
+        "name": "bootstrap",
+        "version": "^5.3.8",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "history",
+        "version": "^5.3.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prop-types",
+        "version": "^15.8.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react",
+        "version": "^19.2.8",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-bootstrap",
+        "version": "^2.10.10",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-dom",
+        "version": "^19.2.8",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-icons",
+        "version": "^5.7.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-redux",
+        "version": "^9.3.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "react-router",
+        "version": "^8.3.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "redux",
+        "version": "^5.0.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "regenerator-runtime",
+        "version": "^0.14.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/core",
+        "version": "^7.29.7",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-env",
+        "version": "^7.29.7",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@babel/preset-react",
+        "version": "^7.29.7",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/eslintrc",
+        "version": "^3.3.6",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@eslint/js",
+        "version": "^9.39.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@testing-library/jest-dom",
+        "version": "^7.0.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@testing-library/react",
+        "version": "^16.3.2",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "@testing-library/user-event",
+        "version": "^14.6.6",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-jest",
+        "version": "^30.4.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "babel-loader",
+        "version": "^10.1.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "css-loader",
+        "version": "^7.1.4",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint",
+        "version": "^9.39.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-prettier",
+        "version": "^5.5.6",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-react",
+        "version": "^7.37.5",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "eslint-plugin-unused-imports",
+        "version": "^4.4.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "file-loader",
+        "version": "^6.2.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "globals",
+        "version": "^17.11.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "identity-obj-proxy",
+        "version": "^3.0.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest",
+        "version": "^30.4.2",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "jest-environment-jsdom",
+        "version": "^30.4.1",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "prettier",
+        "version": "^3.9.6",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "style-loader",
+        "version": "^4.0.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "webpack",
+        "version": "^5.109.2",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "webpack-cli",
+        "version": "^7.2.2",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "webpack-dev-server",
+        "version": "^6.0.0",
+        "source_file": "jsx/package.json",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 45,
+    "files_with_findings": 30,
+    "severity": {
+      "high": 7,
+      "medium": 9,
+      "low": 29
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 4,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "setup.py",
+            "line": 18,
+            "cwe": "CWE-78",
+            "snippet": "shell = True"
+          },
+          {
+            "severity": "high",
+            "file": "jupyterhub/spawner.py",
+            "line": 1966,
+            "cwe": "CWE-78",
+            "snippet": "popen_kwargs = dict(shell=True)"
+          },
+          {
+            "severity": "high",
+            "file": "share/jupyterhub/static/js/home.js",
+            "line": 51,
+            "cwe": "CWE-78",
+            "snippet": "var row = getRow($(this));"
+          },
+          {
+            "severity": "high",
+            "file": "share/jupyterhub/static/js/token.js",
+            "line": 13,
+            "cwe": "CWE-78",
+            "snippet": "el = $(el);"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 15,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "jsx/src/components/GroupEdit/GroupEdit.jsx",
+            "line": 155,
+            "cwe": "CWE-",
+            "snippet": "// TODO add error if res not ok"
+          },
+          {
+            "severity": "low",
+            "file": "jsx/src/components/Groups/Groups.test.js",
+            "line": 157,
+            "cwe": "CWE-",
+            "snippet": "// FIXME: useSelector mocks prevent updateGroups from being called"
+          },
+          {
+            "severity": "low",
+            "file": "jsx/src/components/ServerDashboard/ServerDashboard.test.js",
+            "line": 407,
+            "cwe": "CWE-",
+            "snippet": "// FIXME: need to force a rerender to get updated checkbox"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/app.py",
+            "line": 2913,
+            "cwe": "CWE-",
+            "snippet": "# TODO: revoke old tokens?"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/log.py",
+            "line": 187,
+            "cwe": "CWE-",
+            "snippet": "# FIXME: _headers is private, but there doesn't appear to be a public way"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/orm.py",
+            "line": 690,
+            "cwe": "CWE-",
+            "snippet": "# TODO: owner_id and spawner_id columns don't need `@declared_attr` when we can require sqlalchemy 2"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/proxy.py",
+            "line": 252,
+            "cwe": "CWE-",
+            "snippet": "Will raise an appropriate Exception (FIXME: find what?) if the route could"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/alembic/versions/833da8570507_rbac.py",
+            "line": 53,
+            "cwe": "CWE-",
+            "snippet": "# FIXME, maybe: currently drops all api tokens and forces recreation!"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/apihandlers/auth.py",
+            "line": 25,
+            "cwe": "CWE-",
+            "snippet": "# FIXME: deprecate this API for oauth token resolution, in favor of using /api/user"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/apihandlers/base.py",
+            "line": 310,
+            "cwe": "CWE-",
+            "snippet": "# TODO: we shouldn't fetch fields we can't read and then filter them out,"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/apihandlers/shares.py",
+            "line": 316,
+            "cwe": "CWE-",
+            "snippet": "# TODO: optimize this query"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/handlers/base.py",
+            "line": 488,
+            "cwe": "CWE-",
+            "snippet": "# FIXME: scopes should give us better control than this"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/handlers/pages.py",
+            "line": 729,
+            "cwe": "CWE-",
+            "snippet": "# TODO: next_url not specified and not running, what do we do?"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/oauth/provider.py",
+            "line": 116,
+            "cwe": "CWE-",
+            "snippet": "# TODO: record redirect_uri used during oauth"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/singleuser/mixins.py",
+            "line": 635,
+            "cwe": "CWE-",
+            "snippet": "# FIXME: this shouldn't be necessary, but it is."
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 5,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "jupyterhub/orm.py",
+            "line": 497,
+            "cwe": "CWE-1188",
+            "snippet": "from_config = Column(Boolean, default=True)"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/user.py",
+            "line": 493,
+            "cwe": "CWE-1188",
+            "snippet": "def all_spawners(self, include_default=True):"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/alembic/versions/3c2384c5aae1_add_from_config_column_to_the_services_.py",
+            "line": 38,
+            "cwe": "CWE-1188",
+            "snippet": "sa.Column('from_config', sa.Boolean, default=True),"
+          },
+          {
+            "severity": "high",
+            "file": "jupyterhub/apihandlers/hub.py",
+            "line": 66,
+            "cwe": "CWE-942",
+            "snippet": "self.set_header('Access-Control-Allow-Origin', '*')"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/services/auth.py",
+            "line": 394,
+            "cwe": "CWE-1188",
+            "snippet": "_bool_env(\"JUPYTERHUB_ALLOW_WEBSOCKET_COOKIE_AUTH\", default=True),"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "jupyterhub/orm.py",
+            "line": 1049,
+            "cwe": "CWE-798",
+            "snippet": "password = 'password'"
+          },
+          {
+            "severity": "high",
+            "file": "testing/jupyterhub_config.py",
+            "line": 12,
+            "cwe": "CWE-798",
+            "snippet": "# c.DummyAuthenticator.password = \"your_password\""
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 7,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "jsx/src/components/ServerDashboard/ServerDashboard.test.js",
+            "line": 163,
+            "cwe": "CWE-319",
+            "snippet": "url: \"http://localhost:8000/hub/api/users?offset=2&limit=2\","
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/app.py",
+            "line": 764,
+            "cwe": "CWE-319",
+            "snippet": "\"http://:8000\","
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/oauth/provider.py",
+            "line": 239,
+            "cwe": "CWE-319",
+            "snippet": "http://openid.net/specs/openid-connect-core-1_0.html#ClaimsParameter"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/services/auth.py",
+            "line": 290,
+            "cwe": "CWE-319",
+            "snippet": "os.getenv('JUPYTERHUB_API_URL') or 'http://127.0.0.1:8081/hub/api',"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/singleuser/mixins.py",
+            "line": 254,
+            "cwe": "CWE-319",
+            "snippet": "return os.environ.get('JUPYTERHUB_API_URL') or 'http://127.0.0.1:8081/hub/api'"
+          },
+          {
+            "severity": "low",
+            "file": "share/jupyterhub/static/js/utils.js",
+            "line": 30,
+            "cwe": "CWE-319",
+            "snippet": "// a = parse_url(\"http://localhost:8888/path/name#hash\")"
+          },
+          {
+            "severity": "low",
+            "file": "testing/jupyterhub_config.py",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "c.JupyterHub.bind_url = 'http://127.0.0.1:8000'"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 12,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "jsx/src/util/jhapiUtil.js",
+            "line": 12,
+            "cwe": "CWE-918",
+            "snippet": "return fetch(api_url, {"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/httpclient.py",
+            "line": 181,
+            "cwe": "CWE-918",
+            "snippet": "async def fetch(url, **kwargs):"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/proxy.py",
+            "line": 968,
+            "cwe": "CWE-918",
+            "snippet": "return await fetch(\r\n                        url,"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/user.py",
+            "line": 824,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect(url)"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/utils.py",
+            "line": 337,
+            "cwe": "CWE-918",
+            "snippet": "r = await fetch(url, raise_for_status=False, **request_args)"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/apihandlers/auth.py",
+            "line": 387,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect(e.in_uri(e.redirect_uri))"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/handlers/base.py",
+            "line": 1745,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect(redirect_url, permanent=False)"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/handlers/login.py",
+            "line": 81,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect(self.settings['login_url'], permanent=False)"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/handlers/pages.py",
+            "line": 66,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect(url)"
+          },
+          {
+            "severity": "medium",
+            "file": "jupyterhub/services/auth.py",
+            "line": 606,
+            "cwe": "CWE-918",
+            "snippet": "r = await fetch(url, method=method, raise_for_status=False, **kwargs)"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/singleuser/extension.py",
+            "line": 78,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect(hub_auth.hub_host + url_path_join(hub_auth.hub_prefix, \"logout\"))"
+          },
+          {
+            "severity": "low",
+            "file": "jupyterhub/singleuser/mixins.py",
+            "line": 140,
+            "cwe": "CWE-601",
+            "snippet": "self.redirect("
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 2,
+    "files_with_findings": 2,
+    "severity": {
+      "high": 0,
+      "medium": 2,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "jupyterhub/handlers/login.py",
+            "line": 144,
+            "cwe": "CWE-1336",
+            "snippet": "custom_html = Template("
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "jupyterhub/apihandlers/proxy.py",
+            "line": 63,
+            "cwe": "CWE-20",
+            "snippet": "model = json.loads(self.request.body.decode('utf8', 'replace'))"
+          }
+        ]
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:780cce96-3832-51d1-a0d3-7751f2ee0daa",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T14:34:33Z",
+      "component": {
+        "type": "application",
+        "name": "JUPYTERHUB",
+        "version": "1dd5f4c3c0d9",
+        "bom-ref": "pkg:generic/anticloud/JUPYTERHUB@1dd5f4c3c0d9",
+        "purl": "pkg:generic/anticloud/JUPYTERHUB@1dd5f4c3c0d9",
+        "licenses": [
+          {
+            "license": {
+              "id": "BSD-3-Clause"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "1dd5f4c3c0d928bdf8363bcee2456de6f2499134"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/jupyterhub/jupyterhub"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "@fortawesome/fontawesome-free",
+        "version": "^7.0.0",
+        "purl": "pkg:npm/@fortawesome/fontawesome-free@^7.0.0",
+        "bom-ref": "npm/@fortawesome/fontawesome-free@^7.0.0"
+      },
+      {
+        "type": "library",
+        "name": "bootstrap",
+        "version": "^5.3.0",
+        "purl": "pkg:npm/bootstrap@^5.3.0",
+        "bom-ref": "npm/bootstrap@^5.3.0"
+      },
+      {
+        "type": "library",
+        "name": "jquery",
+        "version": "^4.0.0",
+        "purl": "pkg:npm/jquery@^4.0.0",
+        "bom-ref": "npm/jquery@^4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "moment",
+        "version": "^2.29.4",
+        "purl": "pkg:npm/moment@^2.29.4",
+        "bom-ref": "npm/moment@^2.29.4"
+      },
+      {
+        "type": "library",
+        "name": "requirejs",
+        "version": "^2.3.6",
+        "purl": "pkg:npm/requirejs@^2.3.6",
+        "bom-ref": "npm/requirejs@^2.3.6"
+      },
+      {
+        "type": "library",
+        "name": "karma",
+        "version": "^6.4.4",
+        "purl": "pkg:npm/karma@^6.4.4",
+        "bom-ref": "npm/karma@^6.4.4"
+      },
+      {
+        "type": "library",
+        "name": "karma-chrome-launcher",
+        "version": "^3.2.0",
+        "purl": "pkg:npm/karma-chrome-launcher@^3.2.0",
+        "bom-ref": "npm/karma-chrome-launcher@^3.2.0"
+      },
+      {
+        "type": "library",
+        "name": "karma-jasmine",
+        "version": "^5.1.0",
+        "purl": "pkg:npm/karma-jasmine@^5.1.0",
+        "bom-ref": "npm/karma-jasmine@^5.1.0"
+      },
+      {
+        "type": "library",
+        "name": "karma-requirejs",
+        "version": "^1.1.0",
+        "purl": "pkg:npm/karma-requirejs@^1.1.0",
+        "bom-ref": "npm/karma-requirejs@^1.1.0"
+      },
+      {
+        "type": "library",
+        "name": "sass",
+        "version": "^1.74.1",
+        "purl": "pkg:npm/sass@^1.74.1",
+        "bom-ref": "npm/sass@^1.74.1"
+      },
+      {
+        "type": "library",
+        "name": "--progress",
+        "version": "=false",
+        "purl": "pkg:pypi/--progress@false",
+        "bom-ref": "pypi/--progress@=false"
+      },
+      {
+        "type": "library",
+        "name": "history",
+        "version": "^5.3.0",
+        "purl": "pkg:npm/history@^5.3.0",
+        "bom-ref": "npm/history@^5.3.0"
+      },
+      {
+        "type": "library",
+        "name": "lodash",
+        "version": "^4.18.1",
+        "purl": "pkg:npm/lodash@^4.18.1",
+        "bom-ref": "npm/lodash@^4.18.1"
+      },
+      {
+        "type": "library",
+        "name": "prop-types",
+        "version": "^15.8.1",
+        "purl": "pkg:npm/prop-types@^15.8.1",
+        "bom-ref": "npm/prop-types@^15.8.1"
+      },
+      {
+        "type": "library",
+        "name": "react",
+        "version": "^19.2.8",
+        "purl": "pkg:npm/react@^19.2.8",
+        "bom-ref": "npm/react@^19.2.8"
+      },
+      {
+        "type": "library",
+        "name": "react-bootstrap",
+        "version": "^2.10.10",
+        "purl": "pkg:npm/react-bootstrap@^2.10.10",
+        "bom-ref": "npm/react-bootstrap@^2.10.10"
+      },
+      {
+        "type": "library",
+        "name": "react-dom",
+        "version": "^19.2.8",
+        "purl": "pkg:npm/react-dom@^19.2.8",
+        "bom-ref": "npm/react-dom@^19.2.8"
+      },
+      {
+        "type": "library",
+        "name": "react-icons",
+        "version": "^5.7.0",
+        "purl": "pkg:npm/react-icons@^5.7.0",
+        "bom-ref": "npm/react-icons@^5.7.0"
+      },
+      {
+        "type": "library",
+        "name": "react-redux",
+        "version": "^9.3.0",
+        "purl": "pkg:npm/react-redux@^9.3.0",
+        "bom-ref": "npm/react-redux@^9.3.0"
+      },
+      {
+        "type": "library",
+        "name": "react-router",
+        "version": "^8.3.0",
+        "purl": "pkg:npm/react-router@^8.3.0",
+        "bom-ref": "npm/react-router@^8.3.0"
+      },
+      {
+        "type": "library",
+        "name": "redux",
+        "version": "^5.0.1",
+        "purl": "pkg:npm/redux@^5.0.1",
+        "bom-ref": "npm/redux@^5.0.1"
+      },
+      {
+        "type": "library",
+        "name": "regenerator-runtime",
+        "version": "^0.14.1",
+        "purl": "pkg:npm/regenerator-runtime@^0.14.1",
+        "bom-ref": "npm/regenerator-runtime@^0.14.1"
+      },
+      {
+        "type": "library",
+        "name": "@babel/core",
+        "version": "^7.29.7",
+        "purl": "pkg:npm/@babel/core@^7.29.7",
+        "bom-ref": "npm/@babel/core@^7.29.7"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-env",
+        "version": "^7.29.7",
+        "purl": "pkg:npm/@babel/preset-env@^7.29.7",
+        "bom-ref": "npm/@babel/preset-env@^7.29.7"
+      },
+      {
+        "type": "library",
+        "name": "@babel/preset-react",
+        "version": "^7.29.7",
+        "purl": "pkg:npm/@babel/preset-react@^7.29.7",
+        "bom-ref": "npm/@babel/preset-react@^7.29.7"
+      },
+      {
+        "type": "library",
+        "name": "@eslint/eslintrc",
+        "version": "^3.3.6",
+        "purl": "pkg:npm/@eslint/eslintrc@^3.3.6",
+        "bom-ref": "npm/@eslint/eslintrc@^3.3.6"
+      },
+      {
+        "type": "library",
+        "name": "@eslint/js",
+        "version": "^9.39.0",
+        "purl": "pkg:npm/@eslint/js@^9.39.0",
+        "bom-ref": "npm/@eslint/js@^9.39.0"
+      },
+      {
+        "type": "library",
+        "name": "@testing-library/jest-dom",
+        "version": "^7.0.0",
+        "purl": "pkg:npm/@testing-library/jest-dom@^7.0.0",
+        "bom-ref": "npm/@testing-library/jest-dom@^7.0.0"
+      },
+      {
+        "type": "library",
+        "name": "@testing-library/react",
+        "version": "^16.3.2",
+        "purl": "pkg:npm/@testing-library/react@^16.3.2",
+        "bom-ref": "npm/@testing-library/react@^16.3.2"
+      },
+      {
+        "type": "library",
+        "name": "@testing-library/user-event",
+        "version": "^14.6.6",
+        "purl": "pkg:npm/@testing-library/user-event@^14.6.6",
+        "bom-ref": "npm/@testing-library/user-event@^14.6.6"
+      },
+      {
+        "type": "library",
+        "name": "babel-jest",
+        "version": "^30.4.1",
+        "purl": "pkg:npm/babel-jest@^30.4.1",
+        "bom-ref": "npm/babel-jest@^30.4.1"
+      },
+      {
+        "type": "library",
+        "name": "babel-loader",
+        "version": "^10.1.1",
+        "purl": "pkg:npm/babel-loader@^10.1.1",
+        "bom-ref": "npm/babel-loader@^10.1.1"
+      },
+      {
+        "type": "library",
+        "name": "css-loader",
+        "version": "^7.1.4",
+        "purl": "pkg:npm/css-loader@^7.1.4",
+        "bom-ref": "npm/css-loader@^7.1.4"
+      },
+      {
+        "type": "library",
+        "name": "eslint",
+        "version": "^9.39.0",
+        "purl": "pkg:npm/eslint@^9.39.0",
+        "bom-ref": "npm/eslint@^9.39.0"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-prettier",
+        "version": "^5.5.6",
+        "purl": "pkg:npm/eslint-plugin-prettier@^5.5.6",
+        "bom-ref": "npm/eslint-plugin-prettier@^5.5.6"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-react",
+        "version": "^7.37.5",
+        "purl": "pkg:npm/eslint-plugin-react@^7.37.5",
+        "bom-ref": "npm/eslint-plugin-react@^7.37.5"
+      },
+      {
+        "type": "library",
+        "name": "eslint-plugin-unused-imports",
+        "version": "^4.4.1",
+        "purl": "pkg:npm/eslint-plugin-unused-imports@^4.4.1",
+        "bom-ref": "npm/eslint-plugin-unused-imports@^4.4.1"
+      },
+      {
+        "type": "library",
+        "name": "file-loader",
+        "version": "^6.2.0",
+        "purl": "pkg:npm/file-loader@^6.2.0",
+        "bom-ref": "npm/file-loader@^6.2.0"
+      },
+      {
+        "type": "library",
+        "name": "globals",
+        "version": "^17.11.0",
+        "purl": "pkg:npm/globals@^17.11.0",
+        "bom-ref": "npm/globals@^17.11.0"
+      },
+      {
+        "type": "library",
+        "name": "identity-obj-proxy",
+        "version": "^3.0.0",
+        "purl": "pkg:npm/identity-obj-proxy@^3.0.0",
+        "bom-ref": "npm/identity-obj-proxy@^3.0.0"
+      },
+      {
+        "type": "library",
+        "name": "jest",
+        "version": "^30.4.2",
+        "purl": "pkg:npm/jest@^30.4.2",
+        "bom-ref": "npm/jest@^30.4.2"
+      },
+      {
+        "type": "library",
+        "name": "jest-environment-jsdom",
+        "version": "^30.4.1",
+        "purl": "pkg:npm/jest-environment-jsdom@^30.4.1",
+        "bom-ref": "npm/jest-environment-jsdom@^30.4.1"
+      },
+      {
+        "type": "library",
+        "name": "prettier",
+        "version": "^3.9.6",
+        "purl": "pkg:npm/prettier@^3.9.6",
+        "bom-ref": "npm/prettier@^3.9.6"
+      },
+      {
+        "type": "library",
+        "name": "style-loader",
+        "version": "^4.0.0",
+        "purl": "pkg:npm/style-loader@^4.0.0",
+        "bom-ref": "npm/style-loader@^4.0.0"
+      },
+      {
+        "type": "library",
+        "name": "webpack",
+        "version": "^5.109.2",
+        "purl": "pkg:npm/webpack@^5.109.2",
+        "bom-ref": "npm/webpack@^5.109.2"
+      },
+      {
+        "type": "library",
+        "name": "webpack-cli",
+        "version": "^7.2.2",
+        "purl": "pkg:npm/webpack-cli@^7.2.2",
+        "bom-ref": "npm/webpack-cli@^7.2.2"
+      },
+      {
+        "type": "library",
+        "name": "webpack-dev-server",
+        "version": "^6.0.0",
+        "purl": "pkg:npm/webpack-dev-server@^6.0.0",
+        "bom-ref": "npm/webpack-dev-server@^6.0.0"
+      }
+    ]
+  },
+  "elapsed_seconds": 45.36
+}
